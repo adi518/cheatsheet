@@ -6,7 +6,7 @@
 * Remove a package globally: `$ npm uninstall -g <pkg>`
 * Update all globally installed packages to latest stable version: `$ npm update -g`
 * Update all locally installed packages to latest stable version: `$ npm update`
-* Update `npm`: `$ npm install -g npm`
+* Update Npm: `$ npm install -g npm`
 * List all globally installed packages: `$ npm list -g`
 * List all globally installed packages without dependencies: `$ npm list -g --depth=0`
 * List all globally installed outdated packages: `$ npm outdated -g --depth=0`
