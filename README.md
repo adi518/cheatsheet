@@ -101,10 +101,10 @@ It happens to be a major PITA to find these little snippets, so I gather all use
 * Update [RubyGems](https://rubygems.org/pages/download) to latest version: `$ gem update --system`
 * List all gems installed: `$ gem list`
 * Install a gem: `$ gem install <gem>`
-* Uninstall a gem: `$ gem uninstall <gem>`
-* Uninstall previous versions of a gem: `$ gem cleanup <gem>`
-* Uninstall a specific version of a gem: `$ gem uninstall <gem> --version <version>`
-* Uninstall all versions of a gem less than a specific version: `$ gem uninstall <gem> --version '<<version>'`
+* Remove a gem: `$ gem uninstall <gem>`
+* Remove previous versions of a gem: `$ gem cleanup <gem>`
+* Remove a specific version of a gem: `$ gem uninstall <gem> --version <version>`
+* Remove all versions of a gem below a given version: `$ gem uninstall <gem> --version '<<version>'`
 * Update all gems to latest version: `$ gem update`
 
 ## Links
