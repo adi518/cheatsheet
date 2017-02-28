@@ -36,4 +36,5 @@ $ git submodule add <PATH-TO-REPOSITORY>
 ## Links
 * [Atom Keyboard Shortcuts](https://github.com/nwinkler/atom-keyboard-shortcuts)
 * [Brackets Keyboard Shortcuts](https://github.com/adobe/brackets/wiki/Brackets-Shortcuts)
+* [Git Markdown Documentation](http://daringfireball.net/projects/markdown/)
 * [GitLab Markdown Documentation](https://github.com/gitlabhq/gitlabhq/blob/master/doc/user/markdown.md)
