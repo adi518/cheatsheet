@@ -1,4 +1,10 @@
 ## Commands
+### Git Submodules
+Open GitBash in submodule designated path and enter:
+```
+$ git submodule add <PATH-TO-REPOSITORY>
+```
+
 ### Node.js
 * Install a package: `$ npm install <pkg>`
 * Install a package globally: `$ npm install -g <pkg>`
