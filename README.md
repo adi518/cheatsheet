@@ -22,6 +22,7 @@ $ git submodule add <PATH-TO-REPOSITORY>
 * View version: `$ node -v` or `$ node --version`
 * View a package version: `$ npm view <pkg> version`
 * Remove `node_modules`: `$ rimraf node_modules`
+* [Init a new project with default configuration:](https://docs.npmjs.com/cli/init) `npm init -y` 
 
 ### Ruby
 * Update [RubyGems](https://rubygems.org/pages/download) to latest version: `$ gem update --system`
