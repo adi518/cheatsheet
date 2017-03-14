@@ -37,14 +37,18 @@ $ git submodule add <PATH-TO-REPOSITORY>
 ## Hotkeys
 
 ### Atom
-* Beautify: `CTRL + ALT + B`
+* Format: `CTRL + ALT + B`
 * Duplicate line: `CTRL + SHIFT + D`
 * Move line: `CTRL + UP/DOWN`
+* Fold: `SHIFT + CTRL + ALT + [`
+* Expand: `SHIFT + CTRL + ALT + ]`
 
 ### VS Code
-* Beautify: `SHIFT + ALT + F`
+* Format: `SHIFT + ALT + F`
 * Duplicate line: `SHIFT + ALT + UP/DOWN`
 * Move line: `ALT + UP/DOWN`
+* Fold: `CTRL + K, CTRL + 0`
+* Expand: `CTRL + K, CTRL + J`
 
 ## Links
 * [VS Code Keyboard Shortcuts](https://code.visualstudio.com/docs/customization/keybindings)
