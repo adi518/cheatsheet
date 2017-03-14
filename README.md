@@ -33,7 +33,20 @@ $ git submodule add <PATH-TO-REPOSITORY>
 * Remove all versions of a gem below a given version: `$ gem uninstall <gem> --version '<<version>'`
 * Update all gems to latest version: `$ gem update`
 
+## Hotkeys
+
+### Atom
+* Beautify: `CTRL + ALT + B`
+* Duplicate line: `CTRL + SHIFT + D`
+* Move line: `CTRL + UP/DOWN`
+
+### VS Code
+* Beautify: `SHIFT + ALT + F`
+* Duplicate line: `SHIFT + ALT + UP/DOWN`
+* Move line: `ALT + UP/DOWN`
+
 ## Links
+* [VS Code Keyboard Shortcuts](https://code.visualstudio.com/docs/customization/keybindings)
 * [Atom Keyboard Shortcuts](https://github.com/nwinkler/atom-keyboard-shortcuts)
 * [Brackets Keyboard Shortcuts](https://github.com/adobe/brackets/wiki/Brackets-Shortcuts)
 * [Git Markdown Documentation](http://daringfireball.net/projects/markdown/)
