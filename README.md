@@ -7,13 +7,13 @@ Via GitBash:
 - To add: navigate to designated path and run:
 
   ```
-  $ git submodule add <PATH-TO-REPOSITORY> // E.g.: https://github.com/adi518/cheatsheet
+  $ git submodule add <PATH-TO-REPOSITORY> // E.g.: `https://github.com/adi518/cheatsheet`
   ```
 
 - Removal
 
   ```
-  $ git rm --cached <REPOSITORY-FOLDER>
+  $ git rm --cached <REPOSITORY-FOLDER> // E.g. `cheatsheet`
   rm -rf .git/modules/<REPOSITORY-FOLDER>
   ```
 
