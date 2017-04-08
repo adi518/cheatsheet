@@ -78,6 +78,6 @@ Via GitBash:
 
 - Git Submodules
 
-    - <https://git.wiki.kernel.org/index.php/GitSubmoduleTutorial#Removal>
-    - <http://stackoverflow.com/questions/1260748/how-do-i-remove-a-submodule>
-    - <http://stackoverflow.com/questions/12898278/issue-with-adding-common-code-as-git-submodule-already-exists-in-the-index>
+  - <https://git.wiki.kernel.org/index.php/GitSubmoduleTutorial#Removal>
+  - <http://stackoverflow.com/questions/1260748/how-do-i-remove-a-submodule>
+  - <http://stackoverflow.com/questions/12898278/issue-with-adding-common-code-as-git-submodule-already-exists-in-the-index>
