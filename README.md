@@ -19,10 +19,11 @@ Via GitBash:
 
 ## Node.js
 
-- Install a package: `$ npm install <pkg>`
-- Install a package globally: `$ npm install -g <pkg>`
-- Remove a package: `$ npm uninstall <pkg> --save` or `--save-dev` to remove from `devDependencies`
-- Remove a package globally: `$ npm uninstall -g <pkg>`
+- Install a package: `$ npm install <package>`
+- Install a package globally: `$ npm install -g <package>`
+- Install a specific package version: `$ npm install <package>@<version>`
+- Remove a package: `$ npm uninstall <package> --save` or `--save-dev` to remove from `devDependencies`
+- Remove a package globally: `$ npm uninstall -g <package>`
 - Update all globally installed packages to latest stable version: `$ npm update -g`
 - Update all locally installed packages to latest stable version: `$ npm update`
 - Update Npm: `$ npm install -g npm`
@@ -34,7 +35,7 @@ Via GitBash:
 - List all locally installed development packages without their dependencies: `$ npm list --dev --depth=0`
 - List all locally installed outdated packages: `$ npm outdated --depth=0`
 - View version: `$ node -v` or `$ node --version`
-- View a package version: `$ npm view <pkg> version`
+- View a package version: `$ npm view <package> version`
 - Remove `node_modules`: `$ rimraf node_modules`
 - Init a new project with [default configuration](https://docs.npmjs.com/cli/init): `npm init -y`
 
@@ -42,11 +43,11 @@ Via GitBash:
 
 - Update [RubyGems](https://rubygems.org/pages/download) to latest version: `$ gem update --system`
 - List all gems installed: `$ gem list`
-- Install a gem: `$ gem install <gem>`
-- Remove a gem: `$ gem uninstall <gem>`
-- Remove previous versions of a gem: `$ gem cleanup <gem>`
-- Remove a specific version of a gem: `$ gem uninstall <gem> --version <version>`
-- Remove all versions of a gem below a given version: `$ gem uninstall <gem> --version '<<version>'`
+- Install a gem: `$ gem install <package>`
+- Remove a gem: `$ gem uninstall <package>`
+- Remove previous versions of a gem: `$ gem cleanup <package>`
+- Remove a specific version of a gem: `$ gem uninstall <package> --version <version>`
+- Remove all versions of a gem below a given version: `$ gem uninstall <package> --version '<<version>'`
 - Update all gems to latest version: `$ gem update`
 
 # Hotkeys
