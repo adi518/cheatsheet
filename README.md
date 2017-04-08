@@ -27,10 +27,11 @@ Via GitBash:
 - Update all locally installed packages to latest stable version: `$ npm update`
 - Update Npm: `$ npm install -g npm`
 - List all globally installed packages: `$ npm list -g`
-- List all globally installed packages without dependencies: `$ npm list -g --depth=0`
+- List all globally installed packages without their dependencies: `$ npm list -g --depth=0`
 - List all globally installed outdated packages: `$ npm outdated -g --depth=0`
 - List all locally installed packages: `$ npm list`
-- List all locally installed packages without dependencies: `$ npm list --depth=0`
+- List all locally installed packages without their dependencies: `$ npm list --depth=0`
+- List all locally installed development packages without their dependencies: `$ npm list --dev --depth=0`
 - List all locally installed outdated packages: `$ npm outdated --depth=0`
 - View version: `$ node -v` or `$ node --version`
 - View a package version: `$ npm view <pkg> version`
