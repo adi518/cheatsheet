@@ -22,21 +22,21 @@ Via GitBash:
 - Install a package: `$ npm install <package>`
 - Install a package globally: `$ npm install -g <package>`
 - Install a specific package version: `$ npm install <package>@<version>`
-- Remove a package: `$ npm uninstall <package> --save` or `--save-dev` to remove from `devDependencies`
+- Remove a package: `$ npm rm <package> -S` or `-D` to remove from `devDependencies`
 - Remove a package globally: `$ npm uninstall -g <package>`
-- Update all globally installed packages to latest stable version: `$ npm update -g`
-- Update all locally installed packages to latest stable version: `$ npm update`
+- Update all globally installed packages to latest stable version: `$ npm up -g`
+- Update all locally installed packages to latest stable version: `$ npm up`
 - Update Npm: `$ npm install -g npm`
-- List all globally installed packages: `$ npm list -g`
-- List all globally installed packages without their dependencies: `$ npm list -g --depth=0`
+- List all globally installed packages: `$ npm ls -g`
+- List all globally installed packages without their dependencies: `$ npm ls -g --depth=0`
 - List all globally installed outdated packages: `$ npm outdated -g --depth=0`
-- List all locally installed packages: `$ npm list`
-- List all locally installed packages without their dependencies: `$ npm list --depth=0`
-- List all locally installed development packages without their dependencies: `$ npm list --dev --depth=0`
+- List all locally installed packages: `$ npm ls`
+- List all locally installed packages without their dependencies: `$ npm ls --depth=0`
+- List all locally installed development packages without their dependencies: `$ npm ls --dev --depth=0`
 - List all locally installed outdated packages: `$ npm outdated --depth=0`
 - View version: `$ node -v` or `$ node --version`
 - View a package version: `$ npm view <package> version`
-- Remove `node_modules`: `$ rimraf node_modules`
+- Remove `node_modules`: `$ rimraf node_modules` (requires global module [rimraf](https://www.npmjs.com/package/rimraf))
 - Init a new project with [default configuration](https://docs.npmjs.com/cli/init): `npm init -y`
 
 ## Ruby
