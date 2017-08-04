@@ -19,7 +19,7 @@ Via GitBash:
 
 ## Node.js
 
-- Install a package: `$ npm install <package>`
+- Install a package: `$ npm install <package> -S` or `-D` to add to `devDependencies`
 - Install a package globally: `$ npm install -g <package>`
 - Install a specific package version: `$ npm install <package>@<version>`
 - Remove a package: `$ npm rm <package> -S` or `-D` to remove from `devDependencies`
