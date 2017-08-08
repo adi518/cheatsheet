@@ -39,6 +39,16 @@ Via GitBash:
 - Remove `node_modules`: `$ rimraf node_modules` (requires global module [rimraf](https://www.npmjs.com/package/rimraf))
 - Init a new project with [default configuration](https://docs.npmjs.com/cli/init): `npm init -y`
 
+## Installing Npm package from Git
+```
+npm install git+ssh://git@github.com:<githubname>/<githubrepo.git[#<commit-ish>]
+npm install git+ssh://git@github.com:<githubname>/<githubrepo.git>[#semver:^x.x]
+npm install git+http://git@github.com/<githubname>/<githubrepo.git>
+npm install git+https://git@github.com/<githubname>/<githubrepo.git>
+npm install git://github.com/<githubname>/<githubrepo.git>
+npm install github:<githubname>/<githubrepo>[#<commit-ish>]
+```
+
 ## Ruby
 
 - Update [RubyGems](https://rubygems.org/pages/download) to latest version: `$ gem update --system`
@@ -81,3 +91,4 @@ Via GitBash:
   - <https://git.wiki.kernel.org/index.php/GitSubmoduleTutorial#Removal>
   - <http://stackoverflow.com/questions/1260748/how-do-i-remove-a-submodule>
   - <http://stackoverflow.com/questions/12898278/issue-with-adding-common-code-as-git-submodule-already-exists-in-the-index>
+  - https://stackoverflow.com/questions/17509669/how-to-install-an-npm-package-from-github-directly
