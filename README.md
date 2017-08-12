@@ -68,16 +68,34 @@ Via GitBash:
 - Fold: `CTRL + K, CTRL + 0`
 - Expand: `CTRL + K, CTRL + J`
 
+# Markdown
+<pre>
+```json
+   // code for coloring
+```
+```html
+   // code for coloring
+```
+```js
+   // code for coloring
+```
+```css
+   // code for coloring
+```
+// etc.
+</pre>
+
 # Links
 
-- [VS Code Keyboard Shortcuts](https://code.visualstudio.com/docs/customization/keybindings)
-- [Atom Keyboard Shortcuts](https://github.com/nwinkler/atom-keyboard-shortcuts)
-- [Brackets Keyboard Shortcuts](https://github.com/adobe/brackets/wiki/Brackets-Shortcuts)
-- [Git Markdown Documentation](http://daringfireball.net/projects/markdown/)
-- [GitLab Markdown Documentation](https://github.com/gitlabhq/gitlabhq/blob/master/doc/user/markdown.md)
+* [VS Code Keyboard Shortcuts](https://code.visualstudio.com/docs/customization/keybindings)
+* [Atom Keyboard Shortcuts](https://github.com/nwinkler/atom-keyboard-shortcuts)
+* [Brackets Keyboard Shortcuts](https://github.com/adobe/brackets/wiki/Brackets-Shortcuts)
+* [Git Markdown Documentation](http://daringfireball.net/projects/markdown/)
+* [GitLab Markdown Documentation](https://github.com/gitlabhq/gitlabhq/blob/master/doc/user/markdown.md)
 
 - Git Submodules
 
-  - <https://git.wiki.kernel.org/index.php/GitSubmoduleTutorial#Removal>
-  - <http://stackoverflow.com/questions/1260748/how-do-i-remove-a-submodule>
-  - <http://stackoverflow.com/questions/12898278/issue-with-adding-common-code-as-git-submodule-already-exists-in-the-index>
+  * [GitSubmoduleTutorial](https://git.wiki.kernel.org/index.php/GitSubmoduleTutorial#Removal)
+  * [how-do-i-remove-a-submodule](http://stackoverflow.com/questions/1260748/how-do-i-remove-a-submodule)
+  * [issue-with-adding-common-code-as-git-submodule-already-exists-in-the-index](http://stackoverflow.com/questions/12898278/issue-with-adding-common-code-as-git-submodule-already-exists-in-the-index)
+  * [how-to-add-color-to-githubs-readme-md-file](https://stackoverflow.com/questions/11509830/how-to-add-color-to-githubs-readme-md-file)
