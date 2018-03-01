@@ -34,7 +34,8 @@ Via GitBash:
 - List all locally installed packages without their dependencies: `$ npm ls --depth=0`
 - List all locally installed development packages without their dependencies: `$ npm ls --dev --depth=0`
 - List all locally installed outdated packages: `$ npm outdated --depth=0`
-- View version: `$ node -v` or `$ node --version`
+- View Npm package versions: `$ npm view <package> versions`
+- View Npm version: `$ node -v` or `$ node --version`
 - View a package version: `$ npm view <package> version`
 - Remove `node_modules`: `$ rimraf node_modules` (requires global module [rimraf](https://www.npmjs.com/package/rimraf))
 - Init a new project with [default configuration](https://docs.npmjs.com/cli/init): `npm init -y`
